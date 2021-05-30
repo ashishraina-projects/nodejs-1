@@ -1,5 +1,16 @@
 const http = require('http');
-const fs = require('fs')
+const fs = require('fs');
+const _ = require('lodash');
+
+const num = _.random(1,100)
+console.log(num)
+
+const greet = _.once(() => {
+    console.log('Greetings!')
+})
+
+greet();
+greet();
 
 const server = http.createServer((req, res) =>{
    

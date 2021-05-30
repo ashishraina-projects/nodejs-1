@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-1",
+  "version": "1.0.0",
+  "description": "Basic tutotial from https://www.youtube.com/watch?v=bdHE2wHT-gQ&list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishraina-projects/nodejs-1.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "Basic",
+    "Tutorial"
+  ],
+  "author": "Ashish Raina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashishraina-projects/nodejs-1/issues"
+  },
+  "homepage": "https://github.com/ashishraina-projects/nodejs-1#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.7"
+  }
+}
